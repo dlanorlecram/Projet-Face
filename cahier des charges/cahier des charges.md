@@ -1,38 +1,30 @@
-Première ébauche du cahier des charges
+# Cahier des charges
 
+## Qui est la cible ?
 
-Qui est le client ?
-	Face. (asso composée de 2 à 4 employés)
-		-> un employé a  en moyenne à sa charge une dizaine de flux.
+FACE Rennes (Fondation Agir Contre l'Exclusion) est une association spécialisée dans l'insertion professionnelle. Elle fait partie d'un réseau plus dense d'associations présentes sur tout le territoire.
 
+### Détail sur l'entreprise ?
+Cette association à une 4  employées à son actif, qui s'occupe chaqu'un d'une dizaine de flux par ans.
+Sont désigné entant que flux les personnes mise en marge du monde du travail.
+Ces personne represente une bonne partie des missions pour chaque employé de la fondation.
 
-Pour qui ?
-	Pour des flux.
-		1# Personnes dans le besoin
-2# Particularité de la cible -> Present sans ou sous rendez-vous.
-			       -> Représent une grande partie des missions de face.
+###### Particularité du flux
+- Present sans ou sous rendez-vous.
+- Représent une grande partie des missions de face.
 
+###### Les service proposer par la cible au flux.
 
+- Création d'une lettre de motivation
+- Création/amélioration d'un CV
+- Proposition d'offres.
+- Préparation aux entretiens.
+- Et bien d'autres ateliers encore.
 
-Face propose des services.
-
-
-Création d'une lettre de motivation
-Création/amélioration d'un CV
-Proposition d'offres.
-Préparation aux entretiens.
-Et bien d'autres ateliers encore.
-
-
-
-
-gestion des informations
-Flux assigné à un employé de face.
-Premier entretien.
+###### Contexte actuel.
 
 Un suivis des flux après l’insertion pro (3 - 6 - 9 mois).
 Suivie jusqu’à ce que son statuts situation professionnelle soit stable, ou qu’il n’ai plus besoin de face.
-
 
 Etat des lieux de la situation actuelle:
 	-> Présence d’une base de données peu organisée.
@@ -42,20 +34,21 @@ Etat des lieux de la situation actuelle:
 2. Absence de mise en lien des profiles aux offres susceptibles . (Façon Pôle emploi)
 
 
-Besoin exprimé par la clientèle:
+###### Besoin exprimé par la cible:
 
-	->Appli destinée principalement aux employés de Face.
-	-> Une fonction de recherche efficace et rapide qui permet de retrouver une page descriptive sur toutes les actions menées pour le flux et le suivi.
+- Appli destinée principalement aux employés de Face.
+- Une fonction de recherche efficace et rapide qui permet de retrouver une page descriptive sur toutes les actions menées pour le flux et le suivi.
 
+- Un suivis des flux après l’insertion pro (3 - 6 - 9 mois).
 
--> Un agenda centralisé pour les employés de FACE (de façon que chacun connaisse les disponibilités de l'autres pour lui assigner un flux)
--> Un suivi des actions menées par l'employé sur une période donnée
--> Un système de mailing intégré avec envoi automatique aux dates de suivi.
--> Un système de messagerie interne.
--> Un système de reminder (notifications) pour les différents rendez-vous.
--> Un système de gestion des fichiers et des offres d'emplois.
-	-> Prévoir un usage à grande échelle (Face France 64 utilisateur).
-	->Compte supérieur (corps de direction) avec des privilèges supp et une possibilité d’avoir une vision globale des flux.
+- Un agenda centralisé pour les employés de FACE (de façon que chacun connaisse les disponibilités de l'autres pour lui assigner un flux)
+- Un suivi des actions menées par l'employé sur une période donnée
+- Un système de mailing intégré avec envoi automatique aux dates de suivi.
+- Un système de messagerie interne.
+- Un système de reminder (notifications) pour les différents rendez-vous.
+- Un système de gestion des fichiers et des offres d'emplois.
+- Prévoir un usage à grande échelle (Face France 64 utilisateur).
+- Compte supérieur (corps de direction) avec des privilèges supplémentaire et une possibilité d’avoir une vision globale des flux.
 
 
  	#Quels sont ces privilège et qui a le droit de faire quoi:
@@ -81,27 +74,24 @@ Copier - coller des premiers besoins dégagés (voir exemple)
 
 
 
-* D'une fonction de recherche par nom du flux.
-* Une interface qui comprend :
-    * Un historique lié à ce flux (rendez-vous, fichiers, actions menées).
-    * Une possibilité de consulter les fichiers liées à ce flux et d'en associer de nouveaux
-    * Une photo du flux
-    * Un résumé de sa situation (status, cours brief).
+1. D'une fonction de recherche par nom du flux.
+2. Une interface qui comprend :
+    1. Un historique lié à ce flux (rendez-vous, fichiers, actions menées).
+    2. Une possibilité de consulter les fichiers liées à ce flux et d'en associer de nouveaux
+    3. Une photo du flux
+    4. Un résumé de sa situation (status, cours brief).
 
 
 
 
-*D'une interface récapitulative des employés avec une présentation très visuelle des éléments cités plus haut.
-*La possibilité de mettre des notes personnelles sur ses employés pour préparer la réunion d'équipe.
-*La possibilité d'accéder à une interface plus détaillée des actions menées par l'employé.
-<------- Hypothèse ------->
+* D'une interface récapitulative des employés avec une présentation très visuelle des éléments cités plus haut.
+* La possibilité de mettre des notes personnelles sur ses employés pour préparer la réunion d'équipe.
+* La possibilité d'accéder à une interface plus détaillée des actions menées par l'employé.
+
+ 				<-- Hypothèse -->
+
 1# Agenda
- 	-> Un agenda deux en un
-- Personnel:
-1-Pour que l’employé puisse gérer son emploie du temps en fonction de ses disponibilités.
-2- Pouvoir basculer les rendez-vous vers le centralisé afin qu’il soit prit en charge par un autre employé (sur accords).
-3- Mailing pour l’envoie de mail de rendez-vous flux et rappel de rendez vous pour l’employé.
-- Centralisé:
+ 	-> Un agenda deux en un voir charte graphique de Face.
 2-Consulter la disponibilité de ses collègues en cas de surcharge.
 
 
@@ -133,8 +123,8 @@ Détail sur les infos:
 
 
 		1# Profil du flux qui doit contenir:
-*afficher les infos personnelles
-*pouvoir faire un compte rendu et voir un récapitulatif sur le parcours pro.
+* afficher les infos personnelles
+* pouvoir faire un compte rendu et voir un récapitulatif sur le parcours pro.
 			Création d’un compte pour flux CRUD
 			Stockage des fichiers relatifs au flux.
 			2# Parcourir les offres anciennes ou récentes.
@@ -155,17 +145,16 @@ Détail sur les infos:
 
 
 Annexes.
-##Charte graphique de Face :
+>##Charte graphique de Face :
 	Couleur:
 			#24888F -> Vrai bleu présent sur logo de face.
 			#FF9966 -> Vrai orange clair présent sur logo de face.
       #1693A5 ->  cyan
 			#FBB829 -> orange clair
-
 	Logo:
 
 
-## Hébergement de l'application.
+>## Hébergement de l'application.
   Pour un fonctionnement optimal de l'application, la configuration requise sera:
 	 Intranet.
    Nginx.
