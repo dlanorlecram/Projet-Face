@@ -141,10 +141,10 @@
 5.3.2 Prèstation service àprès vente.
 
   L'association est pleinnement consciente que la code académie, ne sera en mesure de lui proposer un services après ventes après livraison de l'application. Toutefois, il lui sera fournie en annexe:
-
-   + Une notice d'installation
-   + Une spécification fonctionnelle
-   + Une spécification technique
-   + Un guide d'administration
+  + Documentation fournie
+   - Une notice d'installation
+   - Une spécification fonctionnelle
+   - Une spécification technique
+   - Un guide d'administration
 
 5.3.3 Au niveau ergonomique
