@@ -84,16 +84,15 @@
 
   Point de vue développement, cette application se verra développer d'une part avec PHP7 côté back office( pour la gestion et le stockage des données ). D'autre part en Angulars Js coté front office pour l'affichage des données.
 
-  ## Supportable sur différent type de média?
+  ###### Supportable sur différent type de média?
   L'application sera supportable par des écrans compris en tre 360px460px jusqu'à 1920x900px. Au delà de ces dimensions, il ne sera pas supportable.
 
-  Technologie utilisé pour l'élaboration de ce projet.
-
-    - Intranet
+  + Technologie utilisé pour l'élaboration de ce projet.
     - Nginx
     - Mysql
     - PHP 7
-    - Angulars Js
+    - Symfony 3
+    - Angulars
     - Html 5
     - Css3
 
@@ -102,8 +101,7 @@
   L'application interface sera propulser depuis un server local en Intranet. Le système Intranet ne necessite pas de connecion internet. Ce qui réduit les coût à une connexion internet et ne permet de prendre en charge que le coût du matériel informatique.
 
 3.4 Téléchargement et installation du logiciel.
-
-  #### Document d’installation et d’usage de l’application.
+  ###### Document d’installation et d’usage de l’application.
 
   Ces documents contiendrons toutes les marches à suivre, pour que l'usager puisse être autonome dans le déploiement de l'application et lors de son usage.
 
