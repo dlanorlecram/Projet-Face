@@ -7,14 +7,19 @@
 ###### MODALITÉS
 
 
-1. PRÉSENTATION GÉNÉRALE DU PROJET
+##### 1. PRÉSENTATION GÉNÉRALE DU PROJET
+
   1. Présentation
-  2. Brief
+
+      Face est une association composée environs de quatre employés. Elle à pour objectif principale de lutter contre l’exclusion dans le domaine pro. Pour faire face à ce problème, elle propose des services qui lui permettent d’accompagner ces flux, jusqu’à ce qu’ils aient une stabilité professionnelle.
+      Pour palier à un manque qui concerne la gestion des données information collecté lors des entretiens avec le flux. Pour cela, elle s’attend à ce que nous lui proposions une  application web, qui lui permettra tout d’abord de pouvoir stocker les données relatives au flux et offres enregistrées, mais aussi de pouvoir y faire une recherche optimale, qui permettrait à chaque employé d’apporté une réponse rapide et efficace au flux lors des entretiens.
+      Cette application doit permettre la réalisation d’autres tâches tel que, la gestion et la planification des entrevues. Mais aussi, permettre aux ‘Super User’ de bénéficier d’ une vue globale sur le fonctionnement de l’association et donner lieux notamment à la gestion des comptes employés.A travers cette application l’employé pourra accompagner de manière optimale chaque flux, jusqu’à la stabilisation de son de sa situation professionnelle.
+
+  * Brief
     1. Description de l’application
 
-    2. Cibles
+      __Cibles__
       ##### Qui est la cible ?
-
       FACE Rennes (Fondation Agir Contre l'Exclusion) est une association spécialisée dans l'insertion professionnelle. Elle fait partie d'un réseau plus dense d'associations présentes sur tout le territoire.
 
       #### Détail sur l'entreprise ?
@@ -22,9 +27,9 @@
       Sont désigné entant que flux les personnes mise en marge du monde du travail.
       Ces personne represente une bonne partie des missions pour chaque employé de la fondation.
 
-    3. Besoin et contexte.
+    * Besoin et contexte.
       ##### Besoin exprimé par la cible:
-      * D'un agenda personnel et un autre plus global.
+      1. D'un agenda personnel et un autre plus global.
       * Un système de mailing automatisé à la création d'un rendez-vous.
       * Une messagerie interne pour demander l'autorisation à ses collègues.
       * D'une fonction de recherche par nom du flux.
@@ -37,10 +42,8 @@
       * La possibilité de mettre des notes personnelles sur ses employés pour préparer la réunion d'équipe.
       * La possibilité d'accéder à une interface plus détaillée des actions menées par l'employé.
 
-    4. Fonctionnalités principales
-
+    * Fonctionnalités principales
       Cette application doit permettre au employés lors de entrevue avec le flux, un stockage organisé des données et fichiers, ainsi qu'une recherche optimale à travers la base de données.
-
 
 #### 2. LES EXIGENCES FONCTIONNELLES
 
@@ -64,7 +67,7 @@
 
 3.1.1 Ergonomie de l’interface
 
-  Cette application devra
+  L'interface devra êre conçu selon l'expérience de l'utilisateur, à fin de pouvoir lui permettre de gagner en rapidité lors des entrevues. Mais aussi, rendre les fonctionnalités accessible durant la navigation. Cela permettrait dans un premier temps de réduire le nombre de clic pour avoir accès à une fonctionnalité. Dans un second,réduira la navigation de l'oeil sur l'écran,réduire le temps de parcours dans l'optique de réduire la fatigue.
 
 3.1.2 Gamme de couleur
 
@@ -96,12 +99,13 @@
 
 3.3 Matériel
 
-  Un serveur d'hébergement en local [Intranet].
+  L'application interface sera propulser depuis un server local en Intranet. Le système Intranet ne necessite pas de connecion internet. Ce qui réduit les coût à une connexion internet et ne permet de prendre en charge que le coût du matériel informatique.
 
 3.4 Téléchargement et installation du logiciel.
 
   #### Document d’installation et d’usage de l’application.
-  Ces document contiendrons toutes les marches à suivre, pour que l'usager puisse être autonome dans le déploiement de l'application et lors de son usage.
+
+  Ces documents contiendrons toutes les marches à suivre, pour que l'usager puisse être autonome dans le déploiement de l'application et lors de son usage.
 
 #### 4. DÉROULEMENT DU PROJET
 
@@ -110,14 +114,13 @@
 4.1.2 Réalisation
 4.1.3 Recette
 4.1.4 Déploiement
-4.2. Ressources humaines
+4.2 Ressources humaines
 4.2.1 Un chef de projet
-
 4.2.2 Un développeur web mobile
 4.2.3 Un web designer
 4.2.4 Un intégrateur
 4.2.4 Un ergonome
-4.2.5 : un developpeur back office
+4.2.5 Un developpeur back office
 
 4.3. Planification
 
@@ -135,13 +138,15 @@
 5.3 Recettage
 5.3.1 Au niveau technique
 
+  L'application sera executable depuis un serveur en intranet.
+
 5.3.2 Prèstation service àprès vente.
 
   L'association est pleinnement consciente que la code académie, ne sera en mesure de lui proposer un services après ventes après livraison de l'application. Toutefois, il lui sera fournie en annexe:
 
-    Une notice d'installation
-    Une spécification fonctionnelle
-    Une spécification technique
-    Un guide d'administration
+   + Une notice d'installation
+   + Une spécification fonctionnelle
+   + Une spécification technique
+   + Un guide d'administration
 
 5.3.3 Au niveau ergonomique
