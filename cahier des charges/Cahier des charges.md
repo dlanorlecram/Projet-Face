@@ -150,11 +150,11 @@
 
   * Développeur back
   Compétence: Tous les développeur Back de la code Academie pour ce projet InterFace sont formé à Symfony, PHP7.
-    * Solenne Hault
+    * Solenne HUAULT
     * Valentin SUSSET
-    * Rebecca Maccio
+    * Rebecca MACCIO
   * Référent numérique
-    * Miguel Katshiete
+    * Miguel KATSHIETE
 
 4.3. Planification
 
