@@ -32,3 +32,21 @@
         Un message en surbrillance apparaitra pour spécifier que le mot de passe est incorrect.
 
 # Les spécifications techniques
+
+  1. Fonctionnement côté Front End.
+    * Dans la structure HTML sera présent un balise form avec deux inputs de saisie un pour le stockage de l'identifiant et l'autre pour le mot de passe. Afin de pouvoir vérifier la validité des deux clés saisies, sera présent une input de type button pour lancer la vérification via la fonctionnalité ng-submit d'AngularJs.
+
+      __AngularJs__
+
+        Le framework AngularJs sera en charge de lancer une requête ajax qui vérifira à travers un fichier json si l'identifiant et le mot de passe sont bien présent dans la base de données sql, grace au système de "ROUTE" mise en place côté "Back-End".
+
+      __Comportement attendu__
+      * Si la requête est bonne, l'employé sera redirigé vers le dashboard.
+      * Sinon un message d'erreur lui sera retourné
+
+         __Detail__
+
+         Si la requête php est incorrect elle retournera un message d'erreur dans la balise html.
+
+  * Fonctionnement côté Back End.
+    *
